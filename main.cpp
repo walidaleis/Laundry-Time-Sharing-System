@@ -1,10 +1,3 @@
-//
-//  main.cpp
-//  Laundry Time-Sharing System
-//
-//  Created by Walid Al-Eisawi on 27/02/2023.
-//
-
 #include "Operator.hpp"
 #include "Machine.hpp"
 #include "Washer.hpp"

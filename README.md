@@ -1,16 +1,16 @@
 # Laundry-Time-Sharing-System
-## Introduction:
+## Introduction
 Laundry in shared accommodation buildings, such as the residential halls on campus, can often be a struggle. Personally, I have experienced first-hand the pain of going down to do laundry, realizing all the washing machines are in use, and coming back several times after that only to be faced with the same problem each time. This is why the idea of a laundry time-sharing system piqued my interest. In Europe and North America, the concept is not foreign at all; many shared laundry rooms utilize a system like this to simplify matters for tenants. Generally, systems like this are not only an easy way to keep track of what machines are in use at a given time, but also provide a mechanism by which payment can easily be regulated in areas where access to laundry machines is paid. Some examples include [AppWash](https://appwash.com/en/), [Tumble.to](https://appwash.com/en/), and Bosch’s [WeWash](https://www.bosch.com/stories/wewash/), which I relied on as inspiration for my program. They usually involve separate interfaces to moderate the laundry room operator’s experience (i.e., the landlord) and that of the residents, which is one aspect I decided to maintain in my version of a laundry time-sharing system.
 
 This project was created as a term project for the Object-Oriented Programming course at NYU Abu Dhabi. The language used was C++.
 
-## Approach:
+## Approach
 Initially, I wanted my system to function as realistically as possible, studying what functions other applications and carefully thinking about how I could replicate them in software, without being attached to actual laundry machines, of course. I started by thinking about how I would separate functions into classes: I would need a general Machine class with functions that are common to both washers and dryers, as well as a separate Washer class and Dryer class that share some of the functions presented in Machine, but also have their own machine-specific functions and variables. For example, setting the mode for a washer would be different from setting the mode for a dryer. Additionally, I decided I should incorporate separate functionality to accommodate users as both residents and operators, since this made more sense to me than abstractly generating a laundry room with an ambiguous number of washing machines and dryers and a randomly set price. Hence, I needed to have a Resident class and an Operator class, each with specific variables and functions that would be used to customize the experience of the user. The operator, specifically, would keep track of the laundry room and all its machines, both washers and dryers. The Resident, on the other hand, would be able to do what anyone would expect from a laundry app, such as creating a profile, adding to their balance, starting a cycle on either kind of machine, and being informed once their cycle was complete.
 
-## Solution:
+## Solution
 To begin to visualize this, the following diagram displays the overall structure of my project:
 
-![UML Diagram](Project%20UML%20diagram.jpeg)
+![UML Diagram](Project_UML_Diagram.jpeg)
 
 As explained above, these five classes were the way I decided to divide information. Of course, this is the fundamental principle underlying OOP logic, and it was crucial for my project. Washer and Dryer classes inherited from Machine, as many variables and functions were common. Machine stored the general information about the machine in variables, such as an int ID to make the machine notable, a bool isAvailable that can be used to deduce whether the machine is running or can be used, an int duration containing initial length of time the cycle will run for, among several other variables. Additionally, the Machine class contained several functions, including but not limited to accessor and mutator methods, that would be useful for both the Operator class and the Resident class.
 

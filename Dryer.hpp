@@ -1,5 +1,3 @@
-
-
 #ifndef DRYER_HPP
 #define DRYER_HPP
 

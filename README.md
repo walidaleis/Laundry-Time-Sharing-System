@@ -160,7 +160,7 @@ Thank you for using our services. Have a nice day!
 ```
 
 ### Bibliography
-[Tumble.to](tumble.to)
-[Appwash](https://appwash.com/en/)
-[WeWash](https://www.bosch.com/stories/wewash/)
-[CPP Reference](https://en.cppreference.com/w/c/chrono/time_t)
+[Tumble.to](tumble.to) <br/>
+[Appwash](https://appwash.com/en/) <br/>
+[WeWash](https://www.bosch.com/stories/wewash/) <br/>
+[CPP Reference](https://en.cppreference.com/w/c/chrono/time_t) <br/>

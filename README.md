@@ -10,7 +10,7 @@ Initially, I wanted my system to function as realistically as possible, studying
 ## Solution:
 To begin to visualize this, the following diagram displays the overall structure of my project:
 
-![UML Diagram](images/Project%20UML%20diagram.jpg)
+![UML Diagram](Project%20UML%20diagram.jpeg)
 
 As explained above, these five classes were the way I decided to divide information. Of course, this is the fundamental principle underlying OOP logic, and it was crucial for my project. Washer and Dryer classes inherited from Machine, as many variables and functions were common. Machine stored the general information about the machine in variables, such as an int ID to make the machine notable, a bool isAvailable that can be used to deduce whether the machine is running or can be used, an int duration containing initial length of time the cycle will run for, among several other variables. Additionally, the Machine class contained several functions, including but not limited to accessor and mutator methods, that would be useful for both the Operator class and the Resident class.
 

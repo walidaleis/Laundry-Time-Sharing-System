@@ -1,10 +1,3 @@
-//
-//  Operator.hpp
-//  Laundry Time-Sharing System
-//
-//  Created by Walid Al-Eisawi on 02/03/2023.
-//
-
 #ifndef OPERATOR_H
 #define OPERATOR_H
 

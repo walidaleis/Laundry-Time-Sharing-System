@@ -1,5 +1,3 @@
-
-
 #ifndef WASHER_H
 #define WASHER_H
 

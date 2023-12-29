@@ -159,7 +159,7 @@ Thank you for using our services. Have a nice day!
 
 ```
 
-### Bibliography
+### References
 [Tumble.to](tumble.to) <br/>
 [Appwash](https://appwash.com/en/) <br/>
 [WeWash](https://www.bosch.com/stories/wewash/) <br/>
